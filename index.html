@@ -1,0 +1,1642 @@
+<!doctype html>
+
+<html lang = "sv">
+<head>
+  <title> Jeja.pl </title>
+  <meta charset="utf-8">
+  <style>
+    #headeer {
+      background-color: #dd9999;
+      width: 50vw;
+      height: 10vh;
+      margin-left: 25vw;
+        border: solid red;
+        margin-bottom: 5vh;
+    }
+    #togowno {
+      margin-left: 34vw;
+      width: 29vw;
+      height: 10vh;
+      background-color: #dddd11;
+      font-size: 1.6vw;
+      border: solid yellow;
+    }
+    #toCaleGowno {
+      margin-top: 10vh;
+    }
+    .hujdupa {
+      width: 98vw;
+      height: 3vw;
+      margin-bottom: 5vh;
+
+    }
+    .przemiot {
+      margin-left: 10vw;
+      float: left;
+     width: 14vw;
+     height: 5vh;
+     background-color: grey;
+     margin-right: 20vw;
+    }
+    .ocena {
+      float: left;
+      width: 14vw;
+      height: 5vh;
+      background-color: red;
+        margin-right: 20vw;
+    }
+    .punkty {
+      float: left;
+      width: 14vw;
+      height: 5vh;
+      background-color: green;
+    }
+   </style>
+
+   <script>
+   function myFunction(){
+   var x = document.getElementById("hujkurwa1").value;
+   var y = document.getElementById("ocena1").value;
+   var z = parseInt(document.getElementById("punkty1").value, 10);
+   var xx = document.getElementById("hujkurwa2").value;
+   var yy = document.getElementById("ocena2").value;
+   var zz = parseInt(document.getElementById("punkty2").value, 10);
+   var xxx3 = document.getElementById("hujkurwa3").value;
+   var yyy3 = document.getElementById("ocena3").value;
+   var zzz3 = parseInt(document.getElementById("punkty3").value, 10);
+   var xxx4 = document.getElementById("hujkurwa4").value;
+   var yyy4 = document.getElementById("ocena4").value;
+   var zzz4 = parseInt( document.getElementById("punkty4").value, 10);
+   var xxx5 = document.getElementById("hujkurwa5").value;
+   var yyy5 = document.getElementById("ocena5").value;
+   var zzz5 = parseInt(document.getElementById("punkty5").value, 10);
+   var xxx6 = document.getElementById("hujkurwa6").value;
+   var yyy6 = document.getElementById("ocena6").value;
+   var zzz6 = parseInt(document.getElementById("punkty6").value, 10);
+   var xxx7 = document.getElementById("hujkurwa7").value;
+   var yyy7 = document.getElementById("ocena7").value;
+   var zzz7 = parseInt(document.getElementById("punkty7").value, 10);
+   var xxx8 = document.getElementById("hujkurwa8").value;
+   var yyy8 = document.getElementById("ocena8").value;
+   var zzz8 = parseInt(document.getElementById("punkty8").value, 10);
+   var xxx9 = document.getElementById("hujkurwa9").value;
+   var yyy9 = document.getElementById("ocena9").value;
+   var zzz9 = parseInt(document.getElementById("punkty9").value, 10);
+   var xxx10 = document.getElementById("hujkurwa10").value;
+   var yyy10 = document.getElementById("ocena10").value;
+   var zzz10 = parseInt(document.getElementById("punkty10").value, 10);
+   var xxs11 = document.getElementById("hujkurwa11").value;
+   var yyy11 = document.getElementById("ocena11").value;
+   var zzz11 = parseInt(document.getElementById("punkty11").value, 10);
+   var xxx12 = document.getElementById("hujkurwa12").value;
+   var yyy12 = document.getElementById("ocena12").value;
+   var zzz12 = parseInt(document.getElementById("punkty12").value, 10);
+   var xxx13 = document.getElementById("hujkurwa13").value;
+   var yyy13 = document.getElementById("ocena13").value;
+   var zzz13 = parseInt(document.getElementById("punkty13").value, 10);
+   var xxx14 = document.getElementById("hujkurwa14").value;
+   var yyy14 = document.getElementById("ocena14").value;
+   var zzz14 = parseInt(document.getElementById("punkty14").value, 10);
+   var xxx15 = document.getElementById("hujkurwa15").value;
+   var yyy15 = document.getElementById("ocena15").value;
+   var zzz15 = parseInt(document.getElementById("punkty15").value, 10);
+   var xxx16 = document.getElementById("hujkurwa16").value;
+   var yyy16 = document.getElementById("ocena16").value;
+   var zzz16 = parseInt(document.getElementById("punkty16").value, 10);
+   var xxx17 = document.getElementById("hujkurwa17").value;
+   var yyy17 = document.getElementById("ocena17").value;
+   var zzz17 = parseInt(document.getElementById("punkty17").value, 10);
+   var xxx18 = document.getElementById("hujkurwa18").value;
+   var yyy18 = document.getElementById("ocena18").value;
+   var zzz18 = parseInt(document.getElementById("punkty18").value, 10);
+   var xxx19 = document.getElementById("hujkurwa19").value;
+   var yyy19 = document.getElementById("ocena19").value;
+   var zzz19 = parseInt(document.getElementById("punkty19").value, 10);
+   var xxx20 = document.getElementById("hujkurwa20").value;
+   var yyy20 = document.getElementById("ocena20").value;
+   var zzz20 = parseInt(document.getElementById("punkty20").value, 10);
+   var xxx21 = document.getElementById("hujkurwa21").value;
+   var yyy21 = document.getElementById("ocena21").value;
+   var zzz21 = parseInt(document.getElementById("punkty21").value, 10);
+   var xxx22 = document.getElementById("hujkurwa22").value;
+   var yyy22 = document.getElementById("ocena22").value;
+   var zzz22 = parseInt(document.getElementById("punkty22").value, 10);
+   var xxx23 = document.getElementById("hujkurwa23").value;
+   var yyy23 = document.getElementById("ocena23").value;
+   var zzz23 = parseInt(document.getElementById("punkty23").value, 10);
+   var xxx24 = document.getElementById("hujkurwa24").value;
+   var yyy24 = document.getElementById("ocena24").value;
+   var zzz24 = parseInt(document.getElementById("punkty24").value, 10);
+   var xxx25 = document.getElementById("hujkurwa25").value;
+   var yyy25 = document.getElementById("ocena25").value;
+   var zzz25 = parseInt(document.getElementById("punkty25").value, 10);
+   var hujpizda = z + zz + zzz3 + zzz4 + zzz5 + zzz6 + zzz7 + zzz8 + zzz9 + zzz10 + zzz11 + zzz12 + zzz13 + zzz14 + zzz15 + zzz16 + zzz17 + zzz18 + zzz19 + zzz20 + zzz21 + zzz22 + zzz23 + zzz24 + zzz25;
+    if (z == 0 || zz == 0 || zzz3 == 0 || zzz4 == 0 || zzz5 == 0 || zzz6 == 0 || zzz7 == 0 || zzz8 == 0 || zzz9 == 0 || hujpizda < 2250) {
+          document.getElementById("Test").innerHTML+= " You cant take Gymniasieexamen";
+    }
+    else {
+        document.getElementById("Test").innerHTML+= " You can take Gymniasieexamen";
+    }
+
+
+   if (y == "A") {
+     var samba1 = 20;
+   }
+   if (y == "B") {
+     var samba1 = 17.5;
+   }
+   if (y == "C") {
+     var samba1 = 15;
+   }
+   if (y == "D") {
+     var samba1 = 12.5;
+   }
+   if (y == "E") {
+     var samba1 = 10;
+   }
+   if (y == "F") {
+     var samba1 = 0;
+   }
+   if (yy == "A") {
+     var samba2 = 20;
+   }
+   if (yy == "B") {
+     var samba2 = 17.5;
+   }
+   if (yy == "C") {
+     var samba2 = 15;
+   }
+   if (yy == "D") {
+     var samba2 = 12.5;
+   }
+   if (yy == "E") {
+     var samba2 = 10;
+   }
+   if (yy == "F") {
+     var samba2 = 0;
+   }
+   if (yyy3 == "A") {
+     var samba3 = 20;
+   }
+   if (yyy3 == "B") {
+     var samba3 = 17.5;
+   }
+   if (yyy3 == "C") {
+     var samba3 = 15;
+   }
+   if (yyy3 == "D") {
+     var samba3 = 12.5;
+   }
+   if (yyy3 == "E") {
+     var samba3 = 10;
+   }
+   if (yyy3 == "F") {
+     var samba3 = 0;
+   }
+   if (yyy4 == "A") {
+     var samba4 = 20;
+   }
+   if (yyy4 =="B") {
+     var samba4 = 17.5;
+   }
+   if (yyy4 =="C") {
+     var samba4 = 15;
+   }
+   if (yyy4 =="D") {
+     var samba4 = 12.5;
+   }
+   if (yyy4 =="E") {
+     var samba4 = 10;
+   }
+   if (yyy4 =="F") {
+     var samba4 = 0;
+   }
+   if (yyy5 =="A") {
+     var samba5 = 20;
+   }
+   if (yyy5 =="B") {
+     var samba5 = 17.5;
+   }
+   if (yyy5 =="C") {
+     var samba5 = 15;
+   }
+   if (yyy5 =="D") {
+     var samba5 = 12.5;
+   }
+   if (yyy5 =="E") {
+     var samba5 = 10;
+   }
+   if (yyy5 =="F") {
+     var samba5 = 0;
+   }
+   if (yyy6 =="A") {
+     var samba6 = 20;
+   }
+   if (yyy6 =="B") {
+     var samba6 = 17.5;
+   }
+   if (yyy6 =="C") {
+     var samba6 = 15;
+   }
+   if (yyy6 =="D") {
+     var samba6 = 12.5;
+   }
+   if (yyy6 =="E") {
+     var samba6 = 10;
+   }
+   if (yyy6 =="F") {
+     var samba6 = 0;
+   }
+   if (yyy7 =="A") {
+     var samba7 = 20;
+   }
+   if (yyy7 =="B") {
+     var samba7 = 17.5;
+   }
+   if (yyy7 =="C") {
+     var samba7 = 15;
+   }
+   if (yyy7 =="D") {
+     var samba7 = 12.5;
+   }
+   if (yyy7 =="E") {
+     var samba7 = 10;
+   }
+   if (yyy7 =="F") {
+     var samba7 = 0;
+   }
+   if (yyy8 =="A") {
+     var samba8 = 20;
+   }
+   if (yyy8 =="B") {
+     var samba8 = 17.5;
+   }
+   if (yyy8 =="C") {
+     var samba8 = 15;
+   }
+   if (yyy8 =="D") {
+     var samba8 = 12.5;
+   }
+   if (yyy8 =="E") {
+     var samba8 = 10;
+   }
+   if (yyy8 =="F") {
+     var samba8 = 0;
+   }
+   if (yyy9 =="A") {
+     var samba9 = 20;
+   }
+   if (yyy9 =="B") {
+     var samba9 = 17.5;
+   }
+   if (yyy9 =="C") {
+     var samba9 = 15;
+   }
+   if (yyy9 =="D") {
+     var samba9 = 12.5;
+   }
+   if (yyy9 =="E") {
+     var samba9 = 10;
+   }
+   if (yyy9 =="F") {
+     var samba9 = 0;
+   }
+   if (yyy10 =="A") {
+     var samba10 = 20;
+   }
+   if (yyy10 =="B") {
+     var samba10 = 17.5;
+   }
+   if (yyy10 =="C") {
+     var samba10 = 15;
+   }
+   if (yyy10 =="D") {
+     var samba10 = 12.5;
+   }
+   if (yyy10 =="E") {
+     var samba10 = 10;
+   }
+   if (yyy10 =="F") {
+     var samba10 = 0;
+   }
+   if (yyy11 =="A") {
+     var samba11 = 20;
+   }
+   if (yyy11 =="B") {
+     var samba11 = 17.5;
+   }
+   if (yyy11 == "C") {
+     var samba11 = 15;
+   }
+   if (yyy11 == "D") {
+     var samba11 = 12.5;
+   }
+   if (yyy11 =="E") {
+     var samba11 = 10;
+   }
+   if (yyy11 =="F") {
+     var samba11 = 0;
+   }
+   if (yyy12 =="A") {
+     var samba12 = 20;
+   }
+   if (yyy12 =="B") {
+     var samba12 = 17.5;
+   }
+   if (yyy12 =="C") {
+     var samba12 = 15;
+   }
+   if (yyy12 =="D") {
+     var samba12= 12.5;
+   }
+   if (yyy12 =="E") {
+     var samba12 = 10;
+   }
+   if (yyy12 =="F") {
+     var samba12 = 0;
+   }
+   if (yyy13 =="A") {
+     var samba13 = 20;
+   }
+   if (yyy13 =="B") {
+     var samba13 = 17.5;
+   }
+   if (yyy13 =="C") {
+     var samba13 = 15;
+   }
+   if (yyy13 =="D") {
+     var samba13 = 12.5;
+   }
+   if (yyy13 =="E") {
+     var samba13 = 10;
+   }
+   if (yyy13 =="F") {
+     var samba13 = 0;
+   }
+   if (yyy14 =="A") {
+     var samba14 = 20;
+   }
+   if (yyy14 =="B") {
+     var samba14 = 17.5;
+   }
+   if (yyy14 =="C") {
+     var samba14 = 15;
+   }
+   if (yyy14 =="D") {
+     var samba14 = 12.5;
+   }
+   if (yyy14 =="E") {
+     var samba14 = 10;
+   }
+   if (yyy14 =="F") {
+     var samba14 = 0;
+   }
+   if (yyy15 =="A") {
+     var samba15 = 20;
+   }
+   if (yyy15 =="B") {
+     var samba15 = 17.5;
+   }
+   if (yyy15 =="C") {
+     var samba15 = 15;
+   }
+   if (yyy15 =="D") {
+     var samba15 = 12.5;
+   }
+   if (yyy15 =="E") {
+     var samba15 = 10;
+   }
+   if (yyy15 =="F") {
+     var samba15 = 0;
+   }
+   if (yyy16 =="A") {
+     var samba16 = 20;
+   }
+   if (yyy16 =="B") {
+     var samba16 = 17.5;
+   }
+   if (yyy16 =="C") {
+     var samba16 = 15;
+   }
+   if (yyy16 =="D") {
+     var samba16 = 12.5;
+   }
+   if (yyy16 =="E") {
+     var samba16 = 10;
+   }
+   if (yyy16 =="F") {
+     var samba16 = 0;
+   }
+   if (yyy17 =="A") {
+     var samba17 = 20;
+   }
+   if (yyy17 =="B") {
+     var samba17 = 17.5;
+   }
+   if (yyy17 =="C") {
+     var samba17 = 15;
+   }
+   if (yyy17 =="D") {
+     var samba17 = 12.5;
+   }
+   if (yyy17 =="E") {
+     var samba17 = 10;
+   }
+   if (yyy17 =="F") {
+     var samba17 = 0;
+   }
+   if (yyy18 =="A") {
+     var samba18 = 20;
+   }
+   if (yyy18 =="B") {
+     var samba18 = 17.5;
+   }
+   if (yyy18 =="C") {
+     var samba18 = 15;
+   }
+   if (yyy18 =="D") {
+     var samba18 = 12.5;
+   }
+   if (yyy18 =="E") {
+     var samba18 = 10;
+   }
+   if (yyy18 =="F") {
+     var samba18 = 0;
+   }
+   if (yyy19 =="A") {
+     var samba19 = 20;
+   }
+   if (yyy19 =="B") {
+     var samba19 = 17.5;
+   }
+   if (yyy19 =="C") {
+     var samba19 = 15;
+   }
+   if (yyy19 =="D") {
+     var samba19 = 12.5;
+   }
+   if (yyy19 =="E") {
+     var samba19 = 10;
+   }
+   if (yyy19 =="F") {
+     var samba19 = 0;
+   }
+   if (yyy20 =="A") {
+     var samba20 = 20;
+   }
+   if (yyy20 =="B") {
+     var samba20 = 17.5;
+   }
+   if (yyy20 =="C") {
+     var samba20 = 15;
+   }
+   if (yyy20 =="D") {
+     var samba20 = 12.5;
+   }
+   if (yyy20 =="E") {
+     var samba20 = 10;
+   }
+   if (yyy20 =="F") {
+     var samba20 = 0;
+   }
+   if (yyy21 =="A") {
+     var samba21 = 20;
+   }
+   if (yyy21 =="B") {
+     var samba21 = 17.5;
+   }
+   if (yyy21 =="C") {
+     var samba21 = 15;
+   }
+   if (yyy21 =="D") {
+     var samba21 = 12.5;
+   }
+   if (yyy21 =="E") {
+     var samba21 = 10;
+   }
+   if (yyy21 =="F") {
+     var samba21 = 0;
+   }
+   if (yyy22 =="A") {
+     var samba22 = 20;
+   }
+   if (yyy22 =="B") {
+     var samba22 = 17.5;
+   }
+   if (yyy22 =="C") {
+     var samba22 = 15;
+   }
+   if (yyy22 =="D") {
+     var samba22 = 12.5;
+   }
+   if (yyy22 =="E") {
+     var samba22 = 10;
+   }
+   if (yyy22 =="F") {
+     var samba22 = 0;
+   }
+   if (yyy23 =="A") {
+     var samba23 = 20;
+   }
+   if (yyy23 =="B") {
+     var samba23 = 17.5;
+   }
+   if (yyy23 =="C") {
+     var samba23 = 15;
+   }
+   if (yyy23 =="D") {
+     var samba23 = 12.5;
+   }
+   if (yyy23 =="E") {
+     var samba23 = 10;
+   }
+   if (yyy23 =="F") {
+     var samba23 = 0;
+   }
+   if (yyy24 =="A") {
+     var samba24 = 20;
+   }
+   if (yyy24 =="B") {
+     var samba24 = 17.5;
+   }
+   if (yyy24 =="C") {
+     var samba24 = 15;
+   }
+   if (yyy24 =="D") {
+     var samba24 = 12.5;
+   }
+   if (yyy24 =="E") {
+     var samba24 = 10;
+   }
+   if (yyy24 =="F") {
+     var samba24 = 0;
+   }
+   if (yyy25 =="A") {
+     var samba25 = 20;
+   }
+   if (yyy25 =="B") {
+     var samba25 = 17.5;
+   }
+   if (yyy25 =="C") {
+     var samba25 = 15;
+   }
+   if (yyy25 =="D") {
+     var samba25 = 12.5;
+   }
+   if (yyy25 =="E") {
+     var samba25 = 10;
+   }
+   if (yyy25 =="F") {
+     var samba25 = 0;
+   }
+   banan = samba2 + samba3 + samba4 + samba5 + samba6 + samba7 + samba8 + samba9 + samba10 + samba11 + samba12 + samba13 + samba14 + samba15;
+   banana = samba16 + samba17 + samba18 + samba19 + samba20 + samba21 + samba22 + samba23 + samba24 + samba25;
+   SumaLiczb = banan + banana;
+   Wynik = SumaLiczb / 24;
+   <!--  console.log(z);
+     console.log(hujpizda);
+     console.log(x);
+     console.log(y);
+     console.log(zz);
+     console.log(xx);
+     console.log(yy);
+     console.log(yyy11);
+       console.log(samba15);
+         console.log(samba14);
+           console.log(samba13);
+             console.log(samba12);
+               console.log(samba11);
+                 console.log(samba10);
+                   console.log(samba9);
+                     console.log(samba8);
+                       console.log(samba7);
+                         console.log(samba6);
+                           console.log(samba5);
+                             console.log(samba4);
+                               console.log(samba3);
+                                 console.log(samba2);
+                                   console.log(samba1);
+
+     console.log(xxx23);
+     console.log(Wynik);
+       console.log(banan);
+         console.log(banana);
+           console.log(samba1);
+           document.getElementById("wynnik").innerHTML+= "Merit =" + Wynik;
+           document.getElementById("duppa").innerHTML+= "Your Points =" + hujpizda;
+
+
+}
+   </script>
+
+</head>
+
+<body>
+<div id="headeer"> <h1><center> Räkna ut merit och Gymnasieexamen mål </h1> ></center> </div>
+<div id="togowno"> <h3>  <center> lägg till kursen och poång  </center> </div>
+<div id="opisy"> </div>
+<div id="toCaleGowno">
+
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa1">
+  <option> Gymnasiearbete </option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena1">
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty1">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa2">
+  <option> Matte 1</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena2">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty2">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa3">
+  <option> Matte 2</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena3">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty3">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa4">
+  <option> Matte 3</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena4">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty4">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa5">
+  <option> Engelska 6</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena5">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty5">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa6">
+  <option> Engelska 5</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena6">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty6">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa7">
+  <option> Svensk som Andra språk 1 / svenska 1</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena7">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty7">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa8">
+  <option> Svensk som Andra språk 2 / svenska 2</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena8">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty8">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa9">
+  <option> Svensk som Andra språk 3 / svenska 3</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena9">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty9">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa10">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena10">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty10">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa11">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena11">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty11">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa12">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena12">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty12">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa13">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena13">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty13">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa14">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena14">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty14">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div><div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa15">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena15">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty15">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa16">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena16">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty16">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa17">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena17">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty17">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa18">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Programiering 1</option>
+  <option> Additional2</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena18">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty18">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div><div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa19">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena19">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty19">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa20">
+  <option> Programiering 1</option>
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena20">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty20">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa21">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena21">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty21">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa22">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena22">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty22">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa23">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena23">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty23">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa24">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Programiering 1</option>
+  <option> Additional2</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena24">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty24">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+<div class="hujdupa">
+<div class="przemiot"> <select id="hujkurwa25">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena25">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty25">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div>
+</div>
+
+<!--<div class="hujdupa">
+ <div class="przemiot"> <select id="hujkurwa26">
+  <option> Gymnasiearbete </option>
+  <option> Additional1</option>
+  <option> Additional2</option>
+  <option> Programiering 1</option>
+  <option> Webbutveckling 1</option>
+  <option> Webbutveckling 2</option>
+  <option> Kemi 1</option>
+  <option> Gränssnittsdesign </option>
+  <option> Webbserverprogrammering 1</option>
+  <option> Programiering 2</option>
+  <option> Engelska 6</option>
+  <option> Engelska 5</option>
+  <option> Engelska 7</option>
+  <option> Svensk som Andra språk 1</option>
+  <option> Svensk som Andra språk 2</option>
+  <option> Svensk som Andra språk 3</option>
+  <option> Historia 1</option>
+  <option> Matte 1</option>
+  <option> Matte 2</option>
+  <option> Matte 3</option>
+  <option> Religion 1</option>
+  <opiton> Samhällskunskap 1</option>
+  <option> Teknik 1</option>
+  <option> Idrott 1</option>
+  <option> fysik 1</option>
+  <option> Dator och nätverksteknik</option>
+</select>
+  <list> </div>
+<div class="ocena"> <select id="ocena26">
+   <option> A </option>
+   <option> B </option>
+   <option> C </option>
+   <option> D </option>
+   <option> E </option>
+   <option> F </option>
+   <select>
+   </div>
+<div class="punkty">
+  <select id="punkty26">
+     <option> 100 </option>
+     <option> 150 </option>
+     <option> 50 </option>
+     <select>
+     </div> -->
+<button onclick="myFunction()">Click me</button>
+
+</div>
+<div id="todolne">
+<div id="wynnik"> </div>
+<div id="duppa"> </div>
+<div id="Test"> </div>
+</div>
+</body>
+
+</html>
